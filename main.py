@@ -39,5 +39,5 @@ button = tkinter.Button(frame, text="Hozzáadás", command=lambda: [addNewName(t
 button.grid(row=2, column=0, columnspan=2)
 
 
-roládSajátModul.readFromFile(treeView)
+sajatmodul.readFromFile(treeView)
 window.mainloop()
